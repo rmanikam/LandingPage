@@ -1,0 +1,84 @@
+/*
+nav bar
+Hero Section
+Row/Section with Articles
+Images
+side by side articles
+
+*/
+body {
+margin: 0;
+color: #223b49;
+
+}
+.navbar {
+    background-color: #223b49 ;
+    padding: 10px;
+    height: 50px;
+
+}
+.navbar-link {
+    color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+    height: 500px;
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: url(https://images.unsplash.com/photo-1583252821153-577dad2a238d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center;
+    color:#000000;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+.row {
+    display: inline-block;
+}
+
+.article {
+box-sizing: border-box;
+display: inline-block;
+padding: 0 5px;
+width: 33%;
+float:left;
+}
+.article-image {
+    max-width: 100%;
+
+} 
+.article-tag {
+    background-color: #35696e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+	
+}
+
+.sticky {
+
+  position: fixed;
+
+  z-index: 1;
+
+  top: 0;
+
+  width: 100%;
+
+}
+.special {
+
+  color: #fff;
+
+  font-size: 2em;
+
+  /* transition: all 0.3s linear; */
+
+}
+
+
